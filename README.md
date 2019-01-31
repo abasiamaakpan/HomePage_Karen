@@ -10,6 +10,7 @@ I am [Karen Cao](https://qimincao.github.io/HomePage_Karen/). This is my persona
 - Contact
 
 Welcome to my home page and get to know me. 😊
+
 ![homepage_gif](res/homepage_gif.gif)
 ![homepage_gif](res/lifepage_gif.gif)
 
