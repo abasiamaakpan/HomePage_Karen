@@ -1,7 +1,10 @@
 html, body {
   margin: 0;
   padding: 0;
-  background-color: #FEF9E7;
+  background-color: ivory;
+  position: relative;
+  align-items: center;
+  justify-content: center;
 }
 
 header {
@@ -28,7 +31,7 @@ nav li {
 main {
   text-align: center;
   position: relative;
-  top: 80px;
+  top: 55px;
 }
 
 
@@ -66,9 +69,13 @@ footer p {
   height: 800px;
   background-image: url("../images/jumbotron.JPG");
   background-size: cover;
+  background-attachment: fixed;
+/*  background-position: center;*/
+  background-repeat: no-repeat;
 }
+
 .container {
-  max-width: 1000px;
+  max-width: 1100px;
   margin: 0 auto;
   padding: 0 10px;
   text-align: center;
@@ -89,6 +96,10 @@ footer p {
 .AboutMe {
   position: relative;
   top: 100px;
+}
+
+.ABouutMe p {
+   font-family: Georgia, serif;
 }
 
 .experience {
@@ -139,4 +150,18 @@ footer p {
   font-family: Impact;
 }
 
+.social-link {
+  text-align: center;
+}
+
+.contact img {
+  opacity: 0.8;
+}
+.container .row h1 {
+  color: #f7797d;
+}
+
+h4, h5, h6 {
+  font-family: impact;
+}
 

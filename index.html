@@ -7,22 +7,41 @@
   <link href='https://fonts.googleapis.com/css?family=Raleway:400, 600' rel='stylesheet' type='text/css'>
   <link href='style/style.css' rel='stylesheet' type='text/css'/>
   <link href='style/slide.css' rel='stylesheet' type='text/css'/>
+  <link href='style/timeline.css' rel='stylesheet' type='text/css'/>
 
   <title>My HomePage</title>
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#navbar" data-offset="50">
   <!-- Navigation -->
   <header>
-    <nav>
-      <ul>
-        <a href="#AboutMe"><li> About Me </li> </a>
-        <a href="#Experience"><li> Experience </li> </a>
-        <a href="#Projects"><li> Projects </li> </a>
-        <a href="#Education"><li> Education </li></a>
-        <a href="#Skills"><li> Skills </li></a>
-        <a href="#Contact"><li> Contact </li></a>
-        <a href="life.html" target="_blank"><li > More </li></a>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark" id="navbar">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <ul class="navbar-nav collapse navbar-collapse" id="collapsibleNavbar">
+        <li class="nav-item">
+          <a class="nav-link" href="#AboutMe">About Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Experience">Experience</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Education">Education</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Contact">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="life.html" target="_blank">More</a>
+        </li>
       </ul>
     </nav>
   </header>
@@ -38,187 +57,216 @@
   </main>
 
   <!-- About me -->
-  <section class="AboutMe" id = "AboutMe">
-    <div class="container">
-      <div class="row">
-        <h1 class="col-12 text-muted" align="center">About Me</h1>
-      </div><br>
 
-      <div class="row">
-        <!-- my profile -->
-        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" align="center">
-          <img class = "rounded-circle" src="images/my_profile.PNG" alt="my_profile" width="300" height="290">
-        </div>
+  <div class="container AboutMe shadow-lg p-3 mb-5 bg-white rounded" id = "AboutMe">
+    <div class="row">
+      <h1 class="col-12" align="center">About Me</h1>
+    </div><br>
 
-        <!-- Karen descripcion  -->
-        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
-          <p class="col-11">intro</p>
-        </div>
+    <div class="row">
+      <!-- my profile -->
+      <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5 align-self-center" align="center">
+        <img class = "rounded-circle" src="images/my_profile.PNG" alt="my_profile" width="300" height="290">
+      </div>
+
+      <!-- Karen descripcion  -->
+      <div class="col-xs-7 col-sm-7 col-md-7 col-lg-7 align-self-center">
+        <p class="col-11 ">My name is Karen. <br>I am currently a first-year graduate student <br> majoring Computer Science at Khoury College of Computer Sciences of Northeastern University.<hr>I have big passion in software development. <br>I have an intern experience as a security service engineer, and now I am dedicated to software development.<hr> With experience on development, I want to make my impact in the industry. <br>Now I am seeking 2019 summer and fall internship and Co-op opportunity. <br>Welcome to <a href="mailto:sevenscao@gmail.com">contact</a> me.</p>
       </div>
     </div>
-  </section>
+  </div>
+
 
   <!-- working experience -->
-  <section class="experience" id = "Experience">
-    <div class="container">
-      <br>
-      <div class="row">
-        <h1 class="col-12 text-muted" align="center">Experience</h1>
-      </div><br>
+  <div class="container experience shadow-lg p-3 mb-5 bg-white rounded" id = "Experience">
+    <br>
+    <div class="row">
+      <h1 class="col-12" align="center">Experience</h1>
+    </div><br>
 
-      <div class="row">
-        <!-- Nsfocus logo -->
-        <div class="col-md-4 col-sm-4 col-xs-4 col-lg-4">
-          <img src="images/nsfocus.jpeg" alt="nsfocus_logo">
-        </div>
-        <!-- working enperience -->
-        <div class="col-sm-8 col-xs-8 col-lg-8 col-md-8">
-            <div class="card text-left bg-light mb-3" style="width: 100%;">
-              <div class="card-body">
-                <h5 class="card-title">Security Service Engineer Intern | Shanghai | 12/2016 – 05/2017</h5>
-                <ul class="card-text">
-                  <li> Improved web anomalies detection rate to 95% by building a hybrid intrusion detection model, combining misuse detection based on attack behavior analysis and anomaly detection applying Hidden Markov Model.</li>
-                  <li>Accomplished the automatic search and extraction of entities related to XSS and SQL in big log files, improving the efficiency by up to 30% via coding a pattern using Python and regular expression</li>
-                </ul>
-              </div>
-            </div>
-        </div>
+    <div class="row">
+      <!-- Nsfocus logo -->
+      <div class="col-md-4 col-sm-4 col-xs-4 col-lg-4 align-self-center">
+        <img src="images/nsfocus.jpeg" alt="nsfocus_logo">
       </div>
-      <br>
-    </div>
-  </section>
-
-  <!-- projects -->
-  <section class="projects" id="Projects">
-    <div class="container">
-      <div class="row">
-        <h1 class="col-12 text-muted" align="center">Recent Projects</h1>
-      </div><br>
-
-      <div class="row">
-        <!-- Stock Invest -->
-        <div class="col-sm-6 col-md-6 col-xs-6 col-lg-6">
-          <div class="card">
-            <img class="card-img-top" src="images/stock.jpeg" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">Stock Trade Application</h5>
-              <h6 class="card-subtitle mb-2 text-muted"> 2018/11 - 2018/12</h6>
-              <p class="card-text">Stocl intro</p>
-              <span class="badge badge-primary">Java</span>
-              <span class="badge badge-primary">Swing</span>
-              <span class="badge badge-primary">MVC</span>
-              <span class="badge badge-primary">JSON</span>
-              <span class="badge badge-primary">JUnit</span>
-              <span class="badge badge-primary">Alpha Vantage API</span>
-            </div>
-          </div>
-        </div>
-        <!-- iRate -->
-        <div class="col-sm-6 col-md-6 col-xs-6 col-lg-6">
-          <div class="card">
-            <img class="card-img-top" src="images/irate.jpeg" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">iRate: A Database for Managing Movie Ratings</h5>
-              <h6 class="card-subtitle mb-2 text-muted">2018/11 - 2018/12</h6>
-              <p class="card-text">irate intro</p>
-              <span class="badge badge-primary">Java</span>
-              <span class="badge badge-primary">MySQL</span>
-              <span class="badge badge-primary">JDBC</span>
-            </div>
+      <!-- working enperience -->
+      <div class="col-sm-8 col-xs-8 col-lg-8 col-md-8">
+        <div class="card text-left bg-light mb-3" style="width: 100%;">
+          <div class="card-body">
+            <h5 class="card-title">Security Service Engineer Intern | Shanghai | 12/2016 – 05/2017</h5>
+            <ul class="card-text">
+              <li> Improved web anomalies detection rate to 95% by building a hybrid intrusion detection model, combining misuse detection based on attack behavior analysis and anomaly detection applying Hidden Markov Model.</li>
+              <li>Accomplished the automatic search and extraction of entities related to XSS and SQL in big log files, improving the efficiency by up to 30% via coding a pattern using Python and regular expression</li>
+            </ul>
           </div>
         </div>
       </div>
     </div>
     <br>
-  </section>
+  </div>
 
-  <!-- Education -->
-  <section class="education" id="Education">
-    <div class="container">
-      <br>
-      <div class="row">
-        <h1 class="col-12 text-muted" id="skills" align="center">Education</h1>
+  <!-- projects -->
+  <div class="container projects shadow-lg p-3 mb-5 bg-white rounded" id="Projects">
+    <div class="row">
+      <h1 class="col-12" align="center">Recent Projects</h1>
+    </div><br>
+
+    <div class="row">
+      <!-- Stock Invest -->
+      <div class="col-sm-6 col-md-6 col-xs-6 col-lg-6">
+        <div class="card">
+          <img class="card-img-top" src="images/stock.jpeg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Stock Trade Application</h5>
+            <h6 class="card-subtitle mb-2 text-muted"> 2018/11 - 2018/12</h6>
+            <p class="card-text">
+              <ul class="text-left">
+                <li>Developed a stock trade application based on MVC architecture with both text-based view applying Command-line Design Pattern and GUI view based on Decorator Design Pattern.</li>
+                <li>Implemented features including one-time or long-term investment with specified strategy, adding or buying stocks into a created portfolio, and determining a portfolio on any given date by checking transaction logs.</li>
+                
+              </ul>
+            </p>
+            <span class="badge badge-primary">Java</span>
+            <span class="badge badge-primary">Swing</span>
+            <span class="badge badge-primary">MVC</span>
+            <span class="badge badge-primary">JSON</span>
+            <span class="badge badge-primary">JUnit</span>
+            <span class="badge badge-primary">Alpha Vantage API</span>
+          </div>
+        </div>
       </div>
-      <br>
-
-      <div class="row">
-        <div class="col">
-          <img class="rounded-circle" src="images/shanxi.jpeg"><br>
-          <a href=https://en.wikipedia.org/wiki/Shanxi_University target="_blank"><p class="text-muted">ShanXi University</p></a>
-          <br>
-        </div>
-
-        <div class="col">
-          <img class="rounded-circle" src="images/ecnu.png"><br>
-          <a href=https://en.wikipedia.org/wiki/East_China_Normal_University  target="_blank"><p class="text-muted">East China Normal University</p></a><br>
-        </div>
-
-        <div class="col">
-          <img class="rounded-circle" src="images/neu.jpeg"><br>
-          <a href=https://en.wikipedia.org/wiki/Northeastern_University  target="_blank"> <p class="text-muted">Northeastern University</p></a><br>
+      <!-- iRate -->
+      <div class="col-sm-6 col-md-6 col-xs-6 col-lg-6">
+        <div class="card">
+          <img class="card-img-top" src="images/irate.jpeg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">iRate: A Database for Managing Movie Ratings</h5>
+            <h6 class="card-subtitle mb-2 text-muted">2018/11 - 2018/12</h6>
+            <p class="card-text">
+              <ul class="text-left">
+                <li>Developed and documented a data model for representing entities and relationships in the movie rating application, including five tables: Customer, Movie, Review, Attendance, Endorsement.</li>
+                <li>Provided Data Manipulation Language for editing entries in the table by using trigger, and Data Query Language for commonly used queries to retrieve information from the database by using stored procedure.</li>
+              </ul>
+            </p>
+            <span class="badge badge-primary">Java</span>
+            <span class="badge badge-primary">MySQL</span>
+            <span class="badge badge-primary">JDBC</span>
+          </div>
         </div>
       </div>
     </div>
-  </section>
-
-  <!-- skills -->
-  <section class="skills" id="Skills">
-    <div class="container">
-     <div class="row">
-      <h1 class="col-12 text-muted" id="skills" align="center">Skills</h1>
-    </div><br>
-    <!-- skills description-->
-    <div class="row">
-      <div class="col-sm-12 col-md-12 col-xs-12 col-lg-12">
-        <p>skills intro
-        </p>
-      </div>
-    </div><br>
-    <div class="row">
-      <!-- Skills Slide -->
-      <div class="container">
-        <section class="customer-logos slider">
-          <div class="slide"><img src="images/s-bootstrap.png"></div>
-          <div class="slide"><img src="images/s-css.png"></div>
-          <div class="slide"><img src="images/s-git.png"></div>
-          <div class="slide"><img src="images/s-html5.png"></div>
-          <div class="slide"><img src="images/s-java.png"></div>
-          <div class="slide"><img src="images/s-javaS.png"></div>
-          <div class="slide"><img src="images/s-jquery.png"></div>
-          <div class="slide"><img src="images/s-mongodb.png"></div>
-          <div class="slide"><img src="images/s-python.png"></div>
-          <div class="slide"><img src="images/s-react.png"></div>
-          <div class="slide"><img src="images/s-sql.png"></div>
-          <div class="slide"><img src="images/s-JUnit.png"></div>
-        </section>
-      </div>
-    </div><br>
   </div>
+  <br>
+
+  <!-- Education -->
+  <div class="container education shadow-lg p-3 mb-5 bg-white rounded" id="Education">
+    <br>
+    <div class="row"><h1 class="col-sm-12" id="skills" align="center">Education</h1></div>
+    <br>
+    <div class="row">
+      <div class="timeline col-md-12 col-sm-12 col-xs-12 col-lg-12 mx-auto">
+        <div class="entry">
+          <div class="title">
+            <h3>2018.09 - Present</h3>
+            <p>San Jose, California</p>
+          </div>
+          <div class="body">
+            <h4>Northeastern University</h4>
+            <h6 class="text-muted">Candidate for a Master of Science in Computer Science</h6>
+            <p>Light, Truth, Courage.</p>
+
+            <p><strong>Related Courses</strong><br>Program Design Paradigms, Database Management Systems, Algorithms, Web Development</p>
+          </div>
+        </div>
+        <div class="entry">
+          <div class="title">
+            <h3>2015.09 - 2018.06</h3>
+            <p>Shanghai, China</p>
+          </div>
+          <div class="body">
+           <h4>East China Normal University</h4>
+           <h6 class="text-muted">Master’s Degree in Software Engineering</h6>
+           <p>Pursue what we have not been taught, and practice what we are going to teach.</p>
+           <p><strong>Related Courses</strong><br>Theoretical Foundation and Complexity Analysis, Tools of Software analysis and verification, Operation and Optimal Method</p>
+         </div>
+       </div>
+       <div class="entry">
+        <div class="title">
+          <h3>2011.09 - 2015.06</h3>
+          <p>Taiyuan, China</p>
+        </div>
+        <div class="body">
+         <h4>Shanxi University</h4>
+         <h6 class="text-muted">Bachelor’s Degree in Software Engineering</h6>
+         <p>Seek the truth and kindness; respect and emulate the excellent.</p>
+         <p><strong>Related Courses</strong><br>Java Programming, Operating System, Principles of Computer Composition, Data Structures and Algorithms, Database Theory, Data Communication and Computer Network, Discrete Structure, Programming Design Basics</p>
+       </div>
+     </div>
+   </div>
+ </div>
 </div>
-</section>
+</div>
+
+
+
+<!-- skills -->
+<div class="container skills shadow-lg p-3 mb-5 bg-white rounded" id="Skills">
+ <div class="row">
+  <h1 class="col-12" id="skills" align="center">Skills</h1>
+</div><br>
+<!-- skills description-->
+<div class="row">
+  <div class="col-sm-1 col-md-1 col-xs-1 col-lg-1"> </div>
+  <div class="col-sm-10 col-md-10 col-xs-10 col-lg-10 shadow-none p-3 mb-5 bg-light rounded text-center text-muted">
+    <strong><p>I have a solid basis of computer science <br>given my learning experience in computer science in both my undergraduate and graduate days. <br><br>In the academic projects,<br> I can handle different programming languages, frameworks and tools,<br> which gives me much hands-on experience and makes me proficient in differen technical skills. <br><br> From my last intern experience,<br> I have became a better troubleshooter by picking up new things <br> quickly and solving problems individually, and have the ability to be a good team member.
+    </p></strong>
+  </div>
+  <div class="col-sm-1 col-md-1 col-xs-1 col-lg-1"></div>
+</div><br>
+<div class="row">
+  <!-- Skills Slide -->
+  <div class="container">
+    <section class="customer-logos slider">
+      <div class="slide"><img src="images/s-bootstrap.png"></div>
+      <div class="slide"><img src="images/s-css.png"></div>
+      <div class="slide"><img src="images/s-git.png"></div>
+      <div class="slide"><img src="images/s-html5.png"></div>
+      <div class="slide"><img src="images/s-java.png"></div>
+      <div class="slide"><img src="images/s-javaS.png"></div>
+      <div class="slide"><img src="images/s-jquery.png"></div>
+      <div class="slide"><img src="images/s-mongodb.png"></div>
+      <div class="slide"><img src="images/s-python.png"></div>
+      <div class="slide"><img src="images/s-react.png"></div>
+      <div class="slide"><img src="images/s-sql.png"></div>
+      <div class="slide"><img src="images/s-JUnit.png"></div>
+    </section>
+  </div>
+</div><br><br>  
+</div>
 
 <!-- contact -->
-<section class="contact" id="Contact">
+<div class="container contact" id="Contact">
+  <div class="row">
+    <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12">
+     <a class="social-link rounded-circle  text-black mr-3" href="https://www.linkedin.com/in/qimin-karen-cao-aa410b16b/" target="_blank"><img class="rounded-circle" src="images/c-in.jpg" alt="linkedin-link"></a>
+     <a class="social-link rounded-circle  text-black mr-3" href="https://twitter.com/qimin_18" target="_blank"><img class="rounded-circle" src="images/c-twi.png" alt="twitter-link"></a>
+     <a class="social-link rounded-circle  text-black mr-3" href="https://github.com/QiminCao" target="_blank"><img class="rounded-circle"src="images/c-git.png" alt="github-link"></a>
+   </div>
+ </div>
+</div>
+
+<footer>
   <div class="container">
-    <div class="row">
-     <a class="social-link rounded-circle  text-black mr-3" href="https://www.linkedin.com/in/qimin-karen-cao-aa410b16b/" target="_blank"><img src="images/c-in.jpg" alt="">
-      <a class="social-link rounded-circle  text-black mr-3" href="https://twitter.com/qimin_18" target="_blank"><img src="images/c-twi.png" alt="">
-        <a class="social-link rounded-circle  text-black mr-3" href="https://github.com/QiminCao" target="_blank"><img src="images/c-git.png" alt="">
-        </div>
-      </div>
-    </section>
-
-    <footer>
-      <div class="container">
-        <p>&copy; Karen Cao 2019</p>
-      </div>
-    </footer>
+    <p>&copy; Karen Cao 2019</p>
+  </div>
+</footer>
 
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <script src="scripts/main.js"></script>
-    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-  </body>
-  </html>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src="scripts/main.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+</body>
+</html>
