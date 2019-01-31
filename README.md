@@ -15,7 +15,7 @@ Welcome to my home page and get to know me. 😊
 ## :star2: Project Objective
 This project serves as an opportunity to apply some web techonologies to a real project, which helps me better understand HTML5, CSS3, Bootstrap4 and some basic JavaScript.
 
-CS5610 Course Link: http://johnguerra.co/classes/webDevelopment_spring_2019/ Love Professor John :heart:
+CS5610 Course Link: http://johnguerra.co/classes/webDevelopment_spring_2019/ Love Professor John!
 
 
 ## :metal: Technologies
@@ -41,4 +41,5 @@ Video can be found [here](https://www.npmjs.com/package/http-server).
 ![homepage_gif](res/homepage_gif.gif)
 
 ## :exclamation: License
-This repository has the standard [MIT license](https://opensource.org/licenses/MIT). [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+This repository has the standard [MIT license](https://opensource.org/licenses/MIT). 
