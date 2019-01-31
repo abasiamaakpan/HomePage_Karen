@@ -18,7 +18,7 @@ Welcome to my home page and get to know me. 😊
 2. Laying the foundation of future projects.
 3. A great alive resume.
 
-CS5610 Course Link: http://johnguerra.co/classes/webDevelopment_spring_2019/ Love Professor John!
+  CS5610 Course Link: http://johnguerra.co/classes/webDevelopment_spring_2019/ Love Professor John!
 
 
 ## :metal: Technologies
@@ -32,14 +32,14 @@ CS5610 Course Link: http://johnguerra.co/classes/webDevelopment_spring_2019/ Lov
 - Git
 
 ## :smirk_cat: Deployment
-##### 1. Clone or download the repository to a local folder.
-##### 2. Intall a web server via npm. Related link: https://www.npmjs.com/package/http-server
-##### 3. Get to the project folder, open terminal and start the server.
-##### 4. Open the showed URL "localhost:8080" in the browser. <br/>
-
+ 1. Clone or download the repository to a local folder.
+ 2. Intall a web server via npm. Related link: https://www.npmjs.com/package/http-server
+ 3. Get to the project folder, open terminal and start the server.
+ 4. Open the showed URL "localhost:8080" in the browser. <br/>
 
 ## :eyes: Video and Slides
 Video demo of this project can be found [here](https://youtu.be/k_eF_y8wGkQ). 
+
 Slide of this project can be found [here](https://docs.google.com/presentation/d/1MhnssvWt08CroN1zR4yJYBhmsmEtfFmlnH06-3qx4WY/edit#slide=id.g4b2061021d_0_882).
 
 
