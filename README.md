@@ -29,11 +29,10 @@ This project serves as a opportunity to apply some web techonologies to a real p
 - Git
 
 ## :smirk_cat: Deployment
-Clone the repository.
-Intall a web server. Ex: https://www.npmjs.com/package/http-server
-Get inside the project root, open a terminal and start the server.
-Go to the showed URL. Example: localhost:8080
-
+##### 1. Clone or download the repository to a local folder.
+##### 2. Intall a web server via npm. Related link: https://www.npmjs.com/package/http-server
+##### 3. Get to the project folder, open terminal and start the server.
+##### 4. Open the showed URL "localhost:8080" in the browser.
 
 ## :eyes: Screenshot
 ![screenshot](image/screenshot.gif)
