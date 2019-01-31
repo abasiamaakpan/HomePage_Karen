@@ -1,7 +1,7 @@
 # [My Personal Web Page](https://qimincao.github.io/HomePage_Karen/)
 
 ## :person_with_pouting_face: Author
-I am [Karen Cao](https://qimincao.github.io/HomePage_Karen/). This is my personal webpage I want to show people more about me. It includes: 
+I am [Karen Cao](https://qimincao.github.io/HomePage_Karen/). This is my personal webpage. I want to show people more about me. It includes: 
 - Brife info
 - Experience
 - Education
@@ -35,7 +35,7 @@ This project serves as a opportunity to apply some web techonologies to a real p
 
 
 ## :eyes: Screenshot
-![screenshot](image/screenshot.gif)
+![homepage_gif](res/homepage_gif.gif)
 
 ## :exclamation: License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
