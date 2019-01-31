@@ -1,7 +1,7 @@
-# My Personal Web Page
+# [My Personal Web Page](https://qimincao.github.io/HomePage_Karen/)
 
 ## :person_with_pouting_face: Author
-I am Karen Cao. This is my personal webpage I want to show people more about me. It includes: 
+I am [Karen Cao](https://qimincao.github.io/HomePage_Karen/). This is my personal webpage I want to show people more about me. It includes: 
 - Brife info
 - Experience
 - Education
@@ -14,7 +14,6 @@ Welcome to my home page and get to know me. 😊
 
 ## :star2: Project Objective
 This project serves as a opportunity to apply some web techonologies to a real project, which help me better understand HTML5, CSS3, Bootstrap4 and some basic JavaScript.
-
 
 
 ## :metal: Technologies
@@ -33,6 +32,7 @@ This project serves as a opportunity to apply some web techonologies to a real p
 ##### 2. Intall a web server via npm. Related link: https://www.npmjs.com/package/http-server
 ##### 3. Get to the project folder, open terminal and start the server.
 ##### 4. Open the showed URL "localhost:8080" in the browser.
+
 
 ## :eyes: Screenshot
 ![screenshot](image/screenshot.gif)
